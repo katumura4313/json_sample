@@ -16,4 +16,9 @@
     { "id": 2, "name": "曇り", "image_name": "tenki_cloudy" },
     { "id": 3, "name": "雨", "image_name": "tenki_rain" }
   ]
+  "students": [
+    { "student_id": 1, "name": "田中太郎", "age": "18" },
+    { "student_id": 2, "name": "鈴木三郎", "age": "20" },
+    { "student_id": 3, "name": "高橋二郎", "age": "21" },
+  ]
 }
