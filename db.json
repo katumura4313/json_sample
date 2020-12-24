@@ -1,24 +1,31 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
-  "weathers": [
-    { "id": 1, "name": "晴れ", "image_name": "tenki_sunny" },
-    { "id": 2, "name": "曇り", "image_name": "tenki_cloudy" },
-    { "id": 3, "name": "雨", "image_name": "tenki_rain" }
-  ],
-  "students": [
-    { "student_id": 1, "name": "田中太郎", "age": "18" },
-    { "student_id": 2, "name": "鈴木三郎", "age": "20" },
-    { "student_id": 3, "name": "高橋二郎", "age": "21" }
-  ]
+    "city": [
+        {
+            "city_en": "tokyo",
+            "city_jp": "東京",
+            "country": "jp",
+            "weather": [
+                { "temper": 0.0, "humid": 0, "name": "晴れ", "image_name": "image_sunny" },
+                { "temper": 0.0, "humid": 0, "name": "曇り", "image_name": "image_cloudy" }
+            ]
+        },
+        {
+            "city_en": "Hokkaido",
+            "city_jp": "北海道",
+            "country": "jp",
+            "weather": [
+                { "temper": 0.0, "humid": 0, "name": "曇り", "image_name": "image_cloudy" },
+                { "temper": 0.0, "humid": 0, "name": "曇り", "image_name": "image_cloudy" }
+            ]
+        },
+        {
+            "city_en": "Osaka",
+            "city_jp": "大阪",
+            "country": "jp",
+            "weather": [
+                { "temper": 0.0, "humid": 0, "name": "雨", "image_name": "image_rain" },
+                { "temper": 0.0, "humid": 0, "name": "曇り", "image_name": "image_cloudy" }
+            ]
+        }
+    ]
 }
