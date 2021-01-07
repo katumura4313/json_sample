@@ -5,8 +5,8 @@
             "city_jp": "東京",
             "country": "jp",
             "weather": [
-                { "temper": 0.0, "humid": 0, "name": "晴れ", "image_name": "image_sunny" },
-                { "temper": 0.0, "humid": 0, "name": "曇り", "image_name": "image_cloudy" }
+                { "temper": 0.0, "humid": 0, "name": "晴れ", "image_name": "tenki_sunny" },
+                { "temper": 0.0, "humid": 0, "name": "曇り", "image_name": "tenki_cloudy" }
             ]
         },
         {
@@ -14,8 +14,8 @@
             "city_jp": "北海道",
             "country": "jp",
             "weather": [
-                { "temper": 0.0, "humid": 0, "name": "曇り", "image_name": "image_cloudy" },
-                { "temper": 0.0, "humid": 0, "name": "曇り", "image_name": "image_cloudy" }
+                { "temper": 0.0, "humid": 0, "name": "曇り", "image_name": "tenki_cloudy" },
+                { "temper": 0.0, "humid": 0, "name": "曇り", "image_name": "tenki_cloudy" }
             ]
         },
         {
@@ -23,8 +23,8 @@
             "city_jp": "大阪",
             "country": "jp",
             "weather": [
-                { "temper": 0.0, "humid": 0, "name": "雨", "image_name": "image_rain" },
-                { "temper": 0.0, "humid": 0, "name": "曇り", "image_name": "image_cloudy" }
+                { "temper": 0.0, "humid": 0, "name": "雨", "image_name": "tenki_rain" },
+                { "temper": 0.0, "humid": 0, "name": "曇り", "image_name": "tenki_cloudy" }
             ]
         }
     ]
